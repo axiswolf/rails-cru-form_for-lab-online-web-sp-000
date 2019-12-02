@@ -1,6 +1,6 @@
 class GenresController < ApplicationController
   def create
-
+    @genre = Genre.create(name: params[:name])
   end
 
   def new
