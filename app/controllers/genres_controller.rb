@@ -1,6 +1,6 @@
 class GenresController < ApplicationController
   def create
-    
+
   end
 
   def new
@@ -18,5 +18,5 @@ class GenresController < ApplicationController
   def edit
     @genre = Genre.find(params[:id])
   end
-  
+
 end
